@@ -1,0 +1,103 @@
+/******* Navbar Styles *******/
+.navbar-inverse {
+    background-color: #09b1f7;
+    border-top-left-radius: 0px;
+    border-top-right-radius: 0px;
+    border: none;
+    overflow: auto;
+}
+
+.navbar-brand {
+    font-weight: 700;
+}
+
+.navbar a {
+    color: #ff0 !important;
+}
+
+.navbar a:visited {
+    color: #ff0 !important;
+}
+
+.navbar .weatherSearch {
+    float: right;
+    margin: 10px;
+    padding: 4px;
+    border-radius: 10px;
+    background-color: #fff;
+    color: #000;
+}
+
+.navbar #weatherSubmit {
+    background-color: ccc;
+    color: #000;
+    border: 2px solid #000;
+}
+
+/******* Main Styles *******/
+#current-weather {
+    overflow: auto;
+}
+
+/******* Forecast Styles *******/
+#content .button {
+    margin: 0px;
+    padding: 10px;
+    text-align: center;
+    color: #999;
+    border-bottom: 2px solid #999;
+    margin-bottom: 20px;
+}
+
+#content .button.active {
+    color: #333;
+    border-bottom: 2px solid #333;
+}
+
+#content .button:hover {
+    color: #000;
+    border-bottom: 2px solid #000;
+    cursor: pointer;
+}
+
+#forecast-table {
+    width: 100%;
+}
+
+/******* Footer Styles *******/
+#footer {
+    background-color: #09b1f7;
+    color: #fff;
+    overflow: auto;
+    text-align: center;
+    padding: 10px 0px;
+    border-radius: 10px 10px 0px 0px;
+    clear: both;
+}
+
+#footer p {
+    margin-top: 20px;
+}
+
+#footer a {
+    color: #ff0;
+}
+
+#footer a:visited {
+    color: #ff0;
+}
+
+.footer-links {
+    width: 100%;
+}
+
+.footer-links a {
+    display: block;
+    border-bottom: 1px solid #fff;
+    width: 100%;
+    padding: 10px 0px;
+}
+
+.footer-links a.bottom {
+    border-bottom: none;
+}
